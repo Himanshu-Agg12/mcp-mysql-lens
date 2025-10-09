@@ -1,4 +1,7 @@
-Claude Desktop Config:
+## Claude Desktop Configuration
+
+Add this configuration to your Claude Desktop config file:
+```json
 {
   "mcpServers": {
     "mysql": {
