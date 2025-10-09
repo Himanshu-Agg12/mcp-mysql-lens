@@ -67,7 +67,7 @@ After saving the configuration, restart Claude Desktop for the changes to take e
 
 | Parameter | Description | Default | Required |
 |-----------|-------------|---------|----------|
-| `MYSQL_HOST` | MySQL server hostname | `localhost` | Yes |
+| `MYSQL_HOST` | MySQL server hostname | - | Yes |
 | `MYSQL_PORT` | MySQL server port | `3306` | Yes |
 | `MYSQL_USER` | Database username | - | Yes |
 | `MYSQL_PASSWORD` | Database password | - | Yes |
@@ -187,3 +187,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by [dpflucas mysql server](https://github.com/dpflucas/mysql-mcp-server)
 
 ---
+
