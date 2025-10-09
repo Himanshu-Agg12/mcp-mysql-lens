@@ -103,11 +103,6 @@ Once configured, you can interact with your MySQL database through Claude Deskto
 ⚠️ **Important Security Considerations:**
 
 1. **Use Read-Only Credentials**: Create a dedicated MySQL user with read-only permissions for data analysis tasks
-   ```sql
-   CREATE USER 'claude_readonly'@'localhost' IDENTIFIED BY 'secure_password';
-   GRANT SELECT ON your_database.* TO 'claude_readonly'@'localhost';
-   FLUSH PRIVILEGES;
-   ```
 
 2. **Never Commit Credentials**: Don't commit the `claude_desktop_config.json` file with actual credentials to version control
 
@@ -181,5 +176,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by [dpflucas mysql server](https://github.com/dpflucas/mysql-mcp-server)
 
 ---
+
 
 
