@@ -43,11 +43,11 @@ Add this configuration to your Claude Desktop config file:
         "mcp-mysql-lens"
       ],
       "env": {
-        "MYSQL_HOST": "localhost",
-        "MYSQL_PORT": "3306",
-        "MYSQL_USER": "your_username",
-        "MYSQL_PASSWORD": "your_password",
-        "MYSQL_DATABASE": "your_database"
+        "MYSQL_HOST": ""<YOUR_MYSQL_HOST>"",
+        "MYSQL_PORT": ""<YOUR_MYSQL_PORT>"",
+        "MYSQL_USER": ""<YOUR_MYSQL_USERNAME>"",
+        "MYSQL_PASSWORD": ""<YOUR_MYSQL_PASSWORD>"",
+        "MYSQL_DATABASE": ""<YOUR_MYSQL_DEFAULT_DB>""
       }
     }
   }
@@ -176,6 +176,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by [dpflucas mysql server](https://github.com/dpflucas/mysql-mcp-server)
 
 ---
+
 
 
 
