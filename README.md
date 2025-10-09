@@ -173,12 +173,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Support
-
-- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/yourusername/mcp-mysql-lens/issues)
-- **Documentation**: [Full Documentation](https://github.com/yourusername/mcp-mysql-lens/wiki)
-- **Community**: Join our [Discord Server](https://discord.gg/example)
-
 ## Acknowledgments
 
 - Built on the [Model Context Protocol](https://modelcontextprotocol.io)
@@ -187,4 +181,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by [dpflucas mysql server](https://github.com/dpflucas/mysql-mcp-server)
 
 ---
+
 
